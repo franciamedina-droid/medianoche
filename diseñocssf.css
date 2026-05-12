@@ -1,0 +1,120 @@
+*
+    html{
+        font-family: 'Segoe UI', tahoma, Geneva, verdana, sans-serif;
+    }
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background-color: #f4f6f8;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar (lado izquierdo oscuro) */
+.sidebar {
+    width: 220px;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #444;
+}
+
+/* Contenido principal */
+.contenido {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Título */
+.titulo {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Formulario */
+.formulario {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Input file */
+input[type="file"] {
+    padding: 5px;
+}
+
+/* Botón */
+.boton {
+    margin-top: 20px;
+    background-color: #2e7d6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #25685a;
+}
+
+/* Footer */
+.footer {
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
